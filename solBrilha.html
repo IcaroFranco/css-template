@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Zen+Tokyo+Zoo&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            background: black;
+        }
+
+        .box {
+            background: rgb(255, 0, 0);
+            width: 25rem;
+            aspect-ratio: 1/1;
+            position: fixed;
+            inset: 0rem;
+            border: black;
+            margin: auto;
+            border-style: ;
+            border-radius: 10px;
+
+            box-shadow:
+                0rem 0rem 2rem 0 black,
+                1rem 1rem 0 0 rgb(215, 0, 0),
+                1rem 1rem 2rem 0 black,
+                2rem 2rem 0 0 rgb(185, 0, 0),
+                2rem 2rem 1rem 0 black,
+                3rem 3rem 0 0 rgb(155, 0, 0),
+                3rem 3rem 1rem 0 black,
+                4rem 4rem 0 0 rgb(125, 0, 0),
+                4rem 4rem 1rem 0 black,
+                5rem 5rem 0 0 rgb(95, 0, 0),
+                5rem 5rem 1rem 0 black;
+        }
+
+        h1 {
+            color: Yellow;
+            font-family: 'Indie Flower', cursive;
+        }
+        h2 {
+            color: black;
+            font-family: 'Indie Flower', cursive;
+            margin-left: 15rem;
+            margin-top: 25%;
+        }
+        img{
+            margin-left: 9rem;
+            margin-top: 2.8rem;
+        }
+
+        /* VÍDEO == https://www.youtube.com/watch?v=HOM47v73yG8&ab_channel=KevinPowell 
+            
+                css NEON == https://www.youtube.com/watch?v=6xNcXwC6ikQ&ab_channel=KevinPowell 
+            */
+    </style>
+</head>
+
+<body id="sss">
+    <div class="box" type="submit" onclick="test()">
+        <center>
+            <br><br><br>
+            <h1>Clique no SOL</h1>
+            <h1>que ele BRILHA</h1>
+            <br>
+        </center>
+            <img src="./images/explosao-solar.png" width="125px" height="125px">
+    </div>
+    <h2>Tudo feito em CSS (menos a troca de cor)</h2>
+</body>
+<script>
+    var bodi = document.getElementsByName("sss");
+    function test() {
+        document.getElementsByClassName("box").test = teste();
+    }
+    function teste() {
+        document.body.style.backgroundColor = "Yellow";
+        return test(bodi)
+    }
+</script>
+
+</html>
